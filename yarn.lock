@@ -1315,6 +1315,11 @@
     react-router-dom "^6.2.2"
     type-fest "^2.17.0"
 
+"@remix-run/router@1.7.2":
+  version "1.7.2"
+  resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.7.2.tgz#cba1cf0a04bc04cb66027c51fa600e9cbc388bc8"
+  integrity sha512-7Lcn7IqGMV+vizMPoEl5F0XDshcdDYtMI6uJLQdQz5CfZAwy3vvGKYSUk789qndt5dEC4HfSjviSYlSoHGL2+A==
+
 "@remix-run/serve@^1.7.0":
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/@remix-run/serve/-/serve-1.7.0.tgz#09b0378c8b18c4e9743976978a0b33a9fcd74043"
@@ -1325,7 +1330,7 @@
     express "^4.17.1"
     morgan "^1.10.0"
 
-"@remix-run/server-runtime@1.7.0", "@remix-run/server-runtime@^1.7.0":
+"@remix-run/server-runtime@1.7.0":
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/@remix-run/server-runtime/-/server-runtime-1.7.0.tgz#df278c46757ebf6d7bdda144830428a0e93341a7"
   integrity sha512-xP/422QACVA6wtnsbTXKABUqKtyMguST+vzJDjKbxVyk8/3k9La8OpF5NF4ovtLhLf0V6gus6WaR86k+HyC9Hg==
@@ -1334,6 +1339,18 @@
     "@web3-storage/multipart-parser" "^1.0.0"
     cookie "^0.4.1"
     react-router-dom "^6.2.2"
+    set-cookie-parser "^2.4.8"
+    source-map "^0.7.3"
+
+"@remix-run/server-runtime@^1.19.1":
+  version "1.19.3"
+  resolved "https://registry.yarnpkg.com/@remix-run/server-runtime/-/server-runtime-1.19.3.tgz#206b55337c266c5bc254878f8ff3cd5677cc60fb"
+  integrity sha512-KzQ+htUsKqpBgKE2tWo7kIIGy3MyHP58Io/itUPvV+weDjApwr9tQr9PZDPA3yAY6rAzLax7BU0NMSYCXWFY5A==
+  dependencies:
+    "@remix-run/router" "1.7.2"
+    "@types/cookie" "^0.4.1"
+    "@web3-storage/multipart-parser" "^1.0.0"
+    cookie "^0.4.1"
     set-cookie-parser "^2.4.8"
     source-map "^0.7.3"
 
@@ -1481,7 +1498,7 @@
     "@types/node" "*"
     "@types/responselike" "*"
 
-"@types/cookie@^0.4.0":
+"@types/cookie@^0.4.0", "@types/cookie@^0.4.1":
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/@types/cookie/-/cookie-0.4.1.tgz#bfd02c1f2224567676c1545199f87c3a861d878d"
   integrity sha512-XW/Aa8APYr6jSVVA1y/DEIZX0/GMKLEVekNG727R8cs56ahETkRAy/3DR7+fJyh7oUgGwNQaRfXCun0+KbWY7Q==
