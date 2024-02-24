@@ -93,7 +93,7 @@
 		"remix-auth": "^3.2.2",
 		"remix-auth-form": "^1.1.2",
 		"require-dir": "^1.2.0",
-		"sanitize-html": "^2.7.0",
+		"sanitize-html": "^2.12.1",
 		"sass": "^1.52.1",
 		"tiny-invariant": "^1.2.0",
 		"unified": "^10.1.2"
